@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./sumo-rl"
+    ],
+    "python.envFile": "${workspaceFolder}/.env"
+}

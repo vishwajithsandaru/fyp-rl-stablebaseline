@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-27 00:29:23 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="type1" length="5.00" maxSpeed="70.00" accel="0.8" decel="4.5" sigma="0.5"/>
+    <vType id="motorbike" accel="0.8" decel="4.5" sigma="0.5" length="5" maxSpeed="100"/>
+
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="gen1" begin="0.00" from="(1_2)" to="(2_3)" end="100.00" number="23" departLane="random" arrivalLane="0"/>
+
+    <!-- Motorbikes -->
+    <flow type="motorbike" id="gen7" begin="0.00" from="(1_2)" to="(2_3)" end="100.00" number="23" departLane="random" arrivalLane="0" color="blue"/>
+
+    <flow id="gen2" begin="0.00" from="(3_2)" to="(2_1)" end="100.00" number="20" departLane="random" arrivalLane="2"/>
+    <flow id="gen3" begin="0.00" from="(4_2)" to="(2_1)" end="100.00" number="30" departLane="random" arrivalLane="0"/>
+    <flow id="gen4" begin="0.00" from="(4_2)" to="(2_5)" end="100.00" number="30" departLane="random" arrivalLane="random"/>
+    <flow id="gen5" begin="0.00" from="(5_2)" to="(2_4)" end="100.00" number="20" departLane="random" arrivalLane="random"/>
+    <flow id="gen6" begin="0.00" from="(5_2)" to="(2_3)" end="100.00" number="20" departLane="random" arrivalLane="random"/>
+</routes>

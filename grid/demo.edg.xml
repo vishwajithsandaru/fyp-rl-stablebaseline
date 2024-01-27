@@ -1,0 +1,10 @@
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"     xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/edges_file.xsd">
+    <edge id="(1_2)" from="1" to="2" type="type0"/>
+    <edge id="(2_3)" from="2" to="3" type="type0"/>
+    <edge id="(2_1)" from="2" to="1" type="type0"/>
+    <edge id="(3_2)" from="3" to="2" type="type0"/>
+    <edge id="(4_2)" from="4" to="2" type="type0"/>
+    <edge id="(2_5)" from="2" to="5" type="type0"/>
+    <edge id="(5_2)" from="5" to="2" type="type0"/>
+    <edge id="(2_4)" from="2" to="4" type="type0"/>
+</edges>

@@ -1,0 +1,14 @@
+<additional>
+    <laneAreaDetector id="detector-(1_2)-0" lane="(1_2)_0"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(1_2)-1" lane="(1_2)_1"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(1_2)-2" lane="(1_2)_2"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(4_2)-0" lane="(4_2)_0"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(4_2)-1" lane="(4_2)_1"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(4_2)-2" lane="(4_2)_2"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(3_2)-0" lane="(3_2)_0"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(3_2)-1" lane="(3_2)_1"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(3_2)-2" lane="(3_2)_2"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(5_2)-0" lane="(5_2)_0"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(5_2)-1" lane="(5_2)_1"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+    <laneAreaDetector id="detector-(5_2)-2" lane="(5_2)_2"  pos="-80" endPos="-1" file="detector.out" freq="30"/>
+</additional>
