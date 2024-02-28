@@ -17,16 +17,16 @@ import traci
 
 from sumo_rl import SumoEnvironment
 
-model_path = "model/dqn"
+model_path = "model/dqn3"
 
 if __name__ == "__main__":
     env = SumoEnvironment(
         net_file="grid/demo.net.xml",
         route_file="grid/demo.rou.xml",
-        out_csv_name="outputs/2way-single-intersection/dqn",
+        out_csv_name="outputs/grid-proto/dqn",
         single_agent=True,
         use_gui=True,
-        num_seconds=100,
+        num_seconds=5000,
         reward_fn=custom_waiting_time_reward,
         observation_class = CustomObservationFunction
     )
@@ -41,22 +41,24 @@ if __name__ == "__main__":
     #     exploration_initial_eps=0.05,
     #     exploration_final_eps=0.01,
     #     verbose=1,
+    #     tensorboard_log="./logs/dqn/"
     # )
-    # model.learn(total_timesteps=100)
+    # model.learn(total_timesteps=50000)
 
     # model.save(model_path)
 
     model = DQN.load(model_path, env=env)
 
-    ep = 10
+    ep = 1000
 
     for e in range(ep):
         obs = env.reset()[0]
-        done = False
-        while not done:
+        truncated = False
+        while not truncated:
             env.render()
             action, _ = model.predict(obs)
             obs, reward, done, truncated, info = env.step(action)
+            print('Truncated', truncated)
 
     env.close()
 

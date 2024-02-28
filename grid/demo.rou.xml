@@ -11,11 +11,11 @@
     <flow id="gen1" begin="0.00" from="(1_2)" to="(2_3)" end="100.00" number="23" departLane="random" arrivalLane="0"/>
 
     <!-- Motorbikes -->
-    <flow type="motorbike" id="gen7" begin="0.00" from="(1_2)" to="(2_3)" end="100.00" number="23" departLane="random" arrivalLane="0" color="blue"/>
+    <flow type="motorbike" id="gen7" begin="0.00" from="(1_2)" to="(2_3)" end="100.00" number="250" departLane="random" arrivalLane="0" color="blue"/>
 
-    <flow id="gen2" begin="0.00" from="(3_2)" to="(2_1)" end="100.00" number="20" departLane="random" arrivalLane="2"/>
-    <flow id="gen3" begin="0.00" from="(4_2)" to="(2_1)" end="100.00" number="30" departLane="random" arrivalLane="0"/>
-    <flow id="gen4" begin="0.00" from="(4_2)" to="(2_5)" end="100.00" number="30" departLane="random" arrivalLane="random"/>
-    <flow id="gen5" begin="0.00" from="(5_2)" to="(2_4)" end="100.00" number="20" departLane="random" arrivalLane="random"/>
-    <flow id="gen6" begin="0.00" from="(5_2)" to="(2_3)" end="100.00" number="20" departLane="random" arrivalLane="random"/>
+    <flow id="gen2" begin="0.00" from="(3_2)" to="(2_1)" end="100.00" number="20000" departLane="random" arrivalLane="2"/>
+    <flow id="gen3" begin="0.00" from="(4_2)" to="(2_1)" end="100.00" number="30000" departLane="random" arrivalLane="0"/>
+    <flow id="gen4" begin="0.00" from="(4_2)" to="(2_5)" end="100.00" number="1000" departLane="random" arrivalLane="random"/>
+    <flow id="gen5" begin="0.00" from="(5_2)" to="(2_4)" end="100.00" number="20000" departLane="random" arrivalLane="random"/>
+    <flow id="gen6" begin="0.00" from="(5_2)" to="(2_3)" end="100.00" number="200" departLane="random" arrivalLane="random"/>
 </routes>
